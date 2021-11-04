@@ -1,0 +1,79 @@
+.main-todo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(46, 45, 45);
+    width: 40%;
+    margin: 20px auto;
+    margin-top: 50px;
+    min-height: 420px;
+    border-radius: 15px;
+}
+
+.todo-button {
+    margin: auto;
+}
+
+.Menu {
+    width: 90px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    margin: 0 10px;
+    color: white;
+    background: linear-gradient(90deg, rgba(48, 16, 255, 1) 0%, rgba(100, 115, 225, 1) 100%);
+}
+
+.Todo-title {
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+}
+
+.selecionActiva {
+    width: 90px;
+    border: none;
+    border-bottom-right-radius: 30px;
+    margin: 0 10px;
+    color: white;
+    background: linear-gradient(90deg, rgb(16, 255, 36) 0%, rgb(45, 61, 51) 100%);
+}
+
+@media (max-width: 1199.98px) {
+    .main-todo {
+        width: 45%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .main-todo {
+        width: 45%;
+    }
+    .todo-button {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 80%;
+    }
+    .todo-button button {
+        width: 35%;
+        margin: 5px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .main-todo {
+        width: 55%;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .main-todo {
+        width: 76%;
+    }
+}
+
+@media (max-width: 360px) {
+    .main-todo {
+        width: 90%;
+    }
+}

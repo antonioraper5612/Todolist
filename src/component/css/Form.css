@@ -1,0 +1,32 @@
+    .main-form {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .main-form input::placeholder {
+        color: #e2e2e2;
+    }
+    
+    .main-form input {
+        margin-top: 30px;
+        padding: 10px 5px;
+        width: 300px;
+        border: 2px solid rgb(108, 16, 255);
+        background-color: transparent;
+        color: white;
+        outline: none;
+    }
+    
+    .main-form button {
+        margin-top: 30px;
+        border: none;
+        width: 80px;
+        background: linear-gradient(90deg, rgba(48, 16, 255, 1) 0%, rgba(100, 115, 225, 1) 100%);
+        color: white;
+    }
+    
+    @media (min-width: 200px) {
+        .main-form {
+            width: 90%;
+        }
+    }

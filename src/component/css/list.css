@@ -1,0 +1,83 @@
+.main-task {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 250px;
+    margin: 30px 0;
+    overflow-y: scroll;
+}
+
+.task {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+.task h1 {
+    font-size: 15px;
+    color: white;
+}
+
+.task button {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgba(48, 16, 255, 1) 0%, rgba(100, 115, 225, 1) 100%);
+}
+
+.taskComplete {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+.taskComplete h1 {
+    font-size: 15px;
+    color: white;
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.taskComplete button {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(231, 6, 6) 0%, rgb(194, 36, 36) 100%);
+}
+
+.recycle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 15px;
+    margin: 0 30px;
+}
+
+.recycle h1 {
+    font-size: 15px;
+    color: white;
+    text-decoration: line-through;
+    opacity: 0.4;
+}
+
+.recycle-button button {
+    margin-left: 15px;
+}
+
+.recycle-button button:nth-child(1) {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background: linear-gradient(90deg, rgb(231, 6, 6) 0%, rgb(194, 36, 36) 100%);
+}
+
+.recycle-button button:nth-child(2) {
+    border: none;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(49, 39, 199);
+}
